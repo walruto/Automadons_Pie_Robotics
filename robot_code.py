@@ -1,8 +1,8 @@
 motor = "6_948929816730218549"
-forward = "w"
-left = "a"
-backward = "s"
-right = "d"
+forward = "dpad_up"
+left = "dpad_left"
+backward = "dpad_down"
+right = "dpad_right"
 
 def autonomous():
     Robot.set_value(motor, "invert_a", True)
